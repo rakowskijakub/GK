@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 6 6" preserveAspectRatio="xMidYMid" style="background: gray">
+<!--
+<rect x="0" y="0" width="3" height="2"stroke="blue" fill="none" stroke-width="0.05"/>
+<text x="0.2" y="0.5" font-size="0.4" fill="red">Hello World!</text>
+<line x1="0.1" y1="0.7" x2="2.9" y2="0.7"stroke-width="0.05" stroke="blue"/>
+<ellipse cx="1.5" cy="1.4" rx=".6" ry=".4" fill="rgb(0,255,180)"/>
+<circle cx="0.4" cy="1.4" r="0.3"fill="magenta" stroke="black" stroke-width="0.03"/>
+<polygon points="2.2,1.7 2.4,1 2.9,1.7"fill="none" stroke="green" stroke-width="0.02"/>
+-->
+<defs>
+   <g id="plus">
+   <g transform= "rotate (0,3.05,4.25)">
+      <animateTransform attributeName = "transform" type = "rotate" from = "0,3.05,4.25" to = "360,3.05,4.25" dur = "10s" repeatCount="indefinite" /> 
+      
+      <g transform= "rotate (0,1.8,3.9)">
+   <animateTransform attributeName = "transform" type = "rotate" from = "0,1.8,3.9" to = "360,1.8,3.9" dur = "10s" repeatCount="indefinite" /> 
+
+<polygon points="2.292403876506104,3.986824088833465 2.2330127018922195,4.1499999999999995 2.1213938048432697,4.283022221559489 1.9710100716628345,4.369846310392954 1.8,4.4 1.6289899283371656,4.369846310392954 1.4786061951567304,4.283022221559489 1.3669872981077809,4.15 1.307596123493896,3.9868240888334654 1.307596123493896,3.813175911166535 1.3669872981077806,3.65 1.4786061951567304,3.516977778440511 1.6289899283371654,3.430153689607046 1.8,3.4 1.971010071662834,3.4301536896070455 2.1213938048432697,3.516977778440511 2.2330127018922195,3.6499999999999995 2.292403876506104,3.813175911166535"  fill="green"/>
+      </g>     
+      <g transform= "rotate (0,4.2,4.55)">
+   <animateTransform attributeName = "transform" type = "rotate" from = "0,4.2,4.55" to = "360,4.2,4.55" dur = "10s" repeatCount="indefinite" /> 
+<polygon points="4.692403876506104,4.636824088833465 4.63301270189222,4.8 4.52139380484327,4.933022221559489 4.371010071662835,5.019846310392954 4.2,5.05 4.0289899283371655,5.019846310392954 3.8786061951567308,4.933022221559489 3.766987298107781,4.8 3.707596123493896,4.636824088833465 3.707596123493896,4.463175911166535 3.7669872981077805,4.3 3.8786061951567303,4.166977778440511 4.0289899283371655,4.080153689607045 4.2,4.05 4.371010071662834,4.080153689607045 4.52139380484327,4.16697777844051 4.63301270189222,4.3 4.692403876506104,4.463175911166535" fill="green" />      
+      </g>
+      
+   <rect width="2.5" height="0.15" transform = "translate (1.8,3.85) rotate (15)" fill="red" />
+   
+   </g>
+   <polygon points="3,4.25 2.7,6 3.3,6" fill="blue" />
+   </g>
+</defs>
+
+<use xlink:href = "#plus" />
+<use xlink:href = "#plus" transform = "scale(0.5,0.5) translate(-1,0)" />
+<use xlink:href = "#plus" transform = "scale(0.5,0.5) translate(7,-1)" />
+</svg>
